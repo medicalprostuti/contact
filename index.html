@@ -136,12 +136,12 @@
             .then(response => response.json())
             .then(result => {
                 if (result.success) {
-                    statusTitle.textContent = 'সফলতা!';
-                    statusMessage.textContent = 'আপনার বার্তা সফলভাবে পাঠানো হয়েছে।';
+                    statusTitle.textContent = 'Done!;
+                    statusMessage.textContent = 'তোমার ম্যাসেজ আমাদের কাছে এসে পৌছেছে! খুব শীঘ্রই রিপ্লাই দেওয়া হবে৷;
                     form.reset();
                 } else {
-                    statusTitle.textContent = 'ত্রুটি!';
-                    statusMessage.textContent = 'বার্তা পাঠাতে সমস্যা হয়েছে। অনুগ্রহ করে আবার চেষ্টা করুন।';
+                    statusTitle.textContent = 'Done;
+                    statusMessage.textContent = 'তোমার ম্যাসেজ আমাদের কাছে এসে পৌছেছে! খুব শীঘ্রই রিপ্লাই দেওয়া হবে৷;
                 }
                 statusModal.classList.remove('hidden');
             })
